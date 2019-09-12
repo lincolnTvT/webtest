@@ -1,0 +1,9 @@
+server:
+  port: 8777
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.2.210:3306/phb_data?serverTimezone=UTC&amp;useSSL=true
+    username: xdnphb
+    password: xdnphb_2015
+debug: true
